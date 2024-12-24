@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PhoneBook1.exe" version="1.0.0.0" publicKeyToken="e36c95307cf5cbb5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PhoneBook1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PhoneBook1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PhoneBook1.exe" size="664992">
+      <assemblyIdentity name="PhoneBook1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>FHVbOsxWuurCs8d4zcQ6oi9uZQDVlDJ/uCMKK133RDw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PhoneBook1.exe.config" size="1242">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rketeNWucb2p5saRG8IW7SyIoWvpNQoMwxjPM9TGdbM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=TONI\anton" issuerKeyHash="664620fc25fce903c62105eb2d6d2fd32911904a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>h7P3UPGidqH1YSP8/j1zP7fR4QRnrlDko/TGs2oswa4=</DigestValue></Reference></SignedInfo><SignatureValue>REZl/+lIQAI3qG35hB/QqzNBle05r4P9rkbW1mmPLDx22nlv5r17vET9FWd9ZUhAjchYFwSYXZEDk9OEdtUFWT42pzPsFJ8MMAvBfHfkptIJQLq1QZpDRoeIfnWBlM3MLwpZ+LxtUl8QGD4jApGv/fvnyjGwX4c1T8jK+alfIjk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rczIcjOO5i7eR9JnMut/VTYt6vpbpG7cssSHUwEdm0bJJ7kFIxzP18teyPYOLmruilX5tWJxVd4L16Y9U9Cw16WeK1nIjYvDeHkBHQ6EINvPNCf7B4BVmdWwkp42fzq6fwxsEq/Uh7H8F2xFrarbfkcEZFVhHvRAMGixCbHKEtU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aec12c6ab3c6f4a3e450ae6704e1d1b73f733dfefc2361f5a176a2f150f7b387" Description="" Url=""><as:assemblyIdentity name="PhoneBook1.exe" version="1.0.0.0" publicKeyToken="e36c95307cf5cbb5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TONI\anton</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8WM50z6Nl+e4taeV4Oy4N41fgqpxxTTdwWSj1LxPrCc=</DigestValue></Reference></SignedInfo><SignatureValue>a34eSSFcGL8OYLxatIfQQrnzqN5qiCWA+sxrhLiBAXF6HwB18/3yF/6iAvAHcw/QH/t1RCLYfaF5Inbsdlq082BdLYRagAALqF2qfG1PCjCuvY4PdL+iD44FH+bZDlcV+xextfYqokvVIYLm6aegDcKU18GO32OGyqD/BM0e/fs=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rczIcjOO5i7eR9JnMut/VTYt6vpbpG7cssSHUwEdm0bJJ7kFIxzP18teyPYOLmruilX5tWJxVd4L16Y9U9Cw16WeK1nIjYvDeHkBHQ6EINvPNCf7B4BVmdWwkp42fzq6fwxsEq/Uh7H8F2xFrarbfkcEZFVhHvRAMGixCbHKEtU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQcRV76CyjZptBaPVpyL7M0DANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQAVABPAE4ASQBcAGEAbgB0AG8AbjAeFw0yMzEyMjcxMjIxMTZaFw0yNDEyMjYxODIxMTZaMB8xHTAbBgNVBAMeFABUAE8ATgBJAFwAYQBuAHQAbwBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtzMhyM47mLt5H0mcy639VNi3q+lukbtyyxIdTAR2bRsknuQUjHM/Xy17I9g4uau6KVfm1YnFV3gvXpj1T0LDXpZ4rWciNi8N4eQEdDoQg2880J/sHgFWZ1bCSnjZ/Orp/DGwSr9SHsfwXbEWtqtt+RwRkVWEe9EAwaLEJscoS1QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAAMFLmY+Jqfhy9FivLUKRl1xh+BBZWJJtm/KB3bonvu6BbWAnMbsyub8Upemvx/cuWQbrgHE/QL6TDXgVjs9I/SXDRWuHO4gtUYJ10auqu0VpI/A3hyCe7G+L3HnKi5uYXucJ7KR1svvzc61VFYyDZzt1ZSed1Os271CbZPi0Fko</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
